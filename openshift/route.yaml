@@ -1,0 +1,10 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: jenkins-cicd-app
+spec:
+  to:
+    kind: Service
+    name: jenkins-cicd-app
+  port:
+    targetPort: 80

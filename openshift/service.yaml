@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: jenkins-cicd-app
+spec:
+  selector:
+    app: jenkins-cicd-app
+  ports:
+  - port: 80
+    targetPort: 80
