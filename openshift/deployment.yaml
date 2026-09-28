@@ -16,4 +16,4 @@ spec:
       - name: jenkins-cicd-app
         image: image-registry.openshift-image-registry.svc:5000/jenkins-cicd-app/jenkins-cicd-app:latest
         ports:
-        - containerPort: 80
+        - containerPort: 8080
